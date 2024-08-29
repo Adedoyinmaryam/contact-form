@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+.attribution a:hover{
+    color: brown;
+}
+.attribution a:active{
+    color: black;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+.error-message {
+    color: red;
+    font-size: 12px;
+    display: block;
+    margin-top: 5px;
+  }
+#consent-alert{
+    color: red;
+    display: none;
+    font-size: 12px;
+    margin-top: -15px;
+    margin-left: 5px;
+}
+.confirm{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.label{
+    gap: 0;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.input:active{
+    border: 1px solid blue;
+}
+h3{
+    text-align: center;
+    color: hsl(0, 66%, 54%);
+    font-size: 30px;
+}
+
+.button{
+    text-align: center;
+    background-color: hsl(169, 82%, 27%);
+    height: 40px;
+    width: 500px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: hsl(186, 15%, 59%);
+}
+html{
+    background-color: hsl(148, 38%, 91%);
+}
+section{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin: 40px auto;
+    border: 1px solid #ccc;
+    max-width: 1440px;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px    ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+label{
+    font-size: 16px;
+}
+.footer{
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
+form{
+    border: 20px ;
+    padding: 20px;
+}
+.check {
+    margin-right: 10px;
+    margin-left: -30px;
+}
+.form-group {
+    margin-bottom: 20px;
+}
+textarea{
+    width: 50%;
+    height: 100px;
+}
+
+select{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+option{
+    padding: 5px;
+    font-size: 14px;
+}
+#consent-alert{
+    color: red;
+    display: none;
+}
